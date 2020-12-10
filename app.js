@@ -30,11 +30,17 @@
 //#endregion
 var express = require('express');
 var app = express();
-var route = require('./routes/route')(app);
+var bodyParser = require('body-parser');
+var session = require('express-session');
+var fs = require('fs');
+var router = require('./router/route');
 
-app.set('views', __dirname + './views');
+app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.engine('html', require('ejs').renderFile);
+app.use(express.static(__dirname + '/public'));
+
+app.use(router);
 
 var server = app.listen(8080, function() {
     console.log('listen to 8080...');
