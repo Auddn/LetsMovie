@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>영화어때?</title>
+        <link rel='stylesheet' href='./../style/myPage.css' />
+    </head>
+    <body>
+        <div id="nav_menu" class="abc">
+            <ul>
+                <li id="apply"><a href = "/login">로그인</a></li>
+                <li id="main"><a href = "/join">회원가입</a></li>
+                <li id="name"><a href = "/mypage">마이페이지</a></li>
+            </ul>
+        </div>
+        <div id="headBox">
+            <div id="abs">
+                <h1>영 화 어 때</h1>
+                <ul id="white">
+                    <li id="place"><a href = "/movieTeacher">영화관</a></li>
+                    <li id="movie"><a href = "/">영화</a></li>
+                    <li id="ticket"><a href = "/moviebook">영화예매</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="desi">마이페이지</div>
+        <div id="loginForm">
+            <form action="/myPage" method="POST"> 
+                <input type="id" id="ex_input" placeholder="아이디"><br>
+                <input type="pw" id="ex_input" placeholder="비밀번호"><br>
+                <input type="name" id="ex_input" placeholder="이름"><br>
+                <input type="name" id="ex_input" placeholder="생년월일 ( ' - ' 사용)"><br>
+                <input type="pnum" id="ex_input" placeholder="전화번호"><br>
+                <input type="submit" id="mbtn" value="수정하기">
+            </form>
+        </div>
+    </body>
+</html>

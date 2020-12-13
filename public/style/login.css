@@ -11,7 +11,7 @@
     margin-right: 30px;
 }
 #headBox{
-    width: 1920px; height: 180px;
+    width: 1535px; height: 180px;
     background-color: #F66868;
     margin-top: 50px;
     text-align: center;
@@ -75,7 +75,7 @@ body{
     border-left: none;
     border-right: none;
 
-    margin-top: 20px;
+    margin-top: 90px;top: 45%; 
 }
 
 .textbox label
@@ -89,14 +89,17 @@ body{
     cursor: text;
 }
 
-#joinbtn{
+#loginbtn{
     width: 70px;
     height: 20px;
-    margin-bottom: 5px;
+    margin-top: 50px;
     text-align: center;
-    
 }
 a{
     text-decoration: none;
     color: #000000;
+}
+#white a{
+    text-decoration: none;
+    color: #ffffff;
 }

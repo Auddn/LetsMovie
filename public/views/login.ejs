@@ -14,17 +14,23 @@
         </div>
         <div id="headBox">
             <div id="abs">
-                <h1>영화어때</h1>
+                <h1>영 화 어 때</h1>
                 <ul>
-                    <li id="place">영화관</li>
-                    <li id="movie">영화</li>
-                    <li id="ticket">영화예매</li>
+                    <li id="place"><a href = "/movieTeacher">영화관</a></li>
+                    <li id="movie"><a href = "/">영화</a></li>
+                    <li id="ticket"><a href = "/moviebook">영화예매</a></li>
                 </ul>
             </div>
         </div>
         <div>
             <div id="desi">로그인</div>
         </div>
-        <div id="loginForm"></div>
+        <div id="loginForm">
+            <form action="/login" method="post">
+                <input type="text" name="username" id="ex_input" placeholder="아이디"><br>
+                <input type="password" name="password" id="ex_input" placeholder="비밀번호"><br>
+                <input type="submit" id="loginbtn" value="로그인">
+            </form>
+        </div>
     </body>
 </html>

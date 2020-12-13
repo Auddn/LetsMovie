@@ -1,0 +1,108 @@
+#nav_menu{
+    position: fixed; top: 0; right: 0;
+    float: right;
+    margin-right: 10 dpx;
+}
+#nav_menu ul{
+    list-style-type: none;
+}
+#nav_menu ul li{
+    display: inline;
+    margin-right: 30px;
+}
+#headBox{
+    width: 1535px; height: 180px;
+    background-color: #F66868;
+    margin-top: 50px;
+    text-align: center;
+    color:  #FFFFFF;
+}
+#headBox ul{
+    list-style-type: none;
+}
+#headBox ul li{
+    display: inline;
+    margin-right: 35px;
+}
+#headBox h1{
+    font-size: 50px;
+}
+body{
+    margin: 0;
+}
+#abs{
+    position: absolute; left: 0; right: 0; top: 9%;
+    
+}
+#loginForm{
+    width: 600px; height: 360px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    border: 1px solid #000000;
+    position: absolute; left: 32%; top: 45%; 
+}
+#desi{
+    width: 100px; height: 50px;
+    background-color: rgba(248,184,184, 1.0);
+    border-radius: 30px;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 510px;
+    margin-right: 50px;
+    margin-top: 70px;
+    border-top: 5px;
+    line-height: 45px;
+    position: absolute;
+    z-index: 10000;
+}
+
+.textbox {
+    position: relative;
+
+    margin-left: 510px;
+    margin-right: 50px;   
+}
+
+#ex_input {
+    width: 250px;
+    height: 30px;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #ffffff;
+
+    margin-top: 20px;
+}
+
+.textbox label
+{ 
+    position: absolute; 
+    top: 1px; /* input 요소의 border-top 설정값 만큼 */ 
+    left: 1px; /* input 요소의 border-left 설정값 만큼 */
+    padding: .8px .5px; /* input 요소의 padding 값 만큼 */ 
+    outline: none;
+    color: #999;
+    cursor: text;
+}
+
+#mbtn{
+    width: 70px;
+    height: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#white a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
